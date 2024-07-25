@@ -1,0 +1,136 @@
+<!-- res/layout/fragment_settings.xml -->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:padding="16dp">
+
+        <!-- Settings Title -->
+
+        <!-- Thank You Message -->
+        <TextView
+            android:layout_width="336dp"
+            android:layout_height="106dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="32dp"
+            android:text="@string/settings_title"
+            android:textSize="70sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="419dp"
+            android:layout_height="129dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="32dp"
+            android:gravity="center"
+            android:text="@string/thank_you_message"
+            android:textSize="50sp" />
+
+        <!-- User Email -->
+        <TextView
+            android:id="@+id/tvUserEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="32dp"/>
+
+        <!-- Line Separator -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Contact Us Section -->
+        <TextView
+            android:layout_width="364dp"
+            android:layout_height="107dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:text="@string/contact_us"
+            android:textSize="70sp"
+            android:textStyle="bold" />
+
+        <!-- Phone Number -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="145dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:text="@string/phone_number"
+            android:textSize="50sp" />
+
+        <!-- Email Address -->
+        <TextView
+            android:layout_width="715dp"
+            android:layout_height="128dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:text="@string/email_address"
+            android:textSize="50sp" />
+
+        <!-- Work Contact Section -->
+        <TextView
+            android:layout_width="663dp"
+            android:layout_height="131dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:text="@string/work_inquiries"
+            android:textSize="70sp" />
+
+        <!-- Work Contact Number -->
+        <TextView
+            android:layout_width="553dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:text="@string/work_contact_number"
+            android:textSize="50sp" />
+
+        <!-- Instagram Section -->
+        <TextView
+            android:layout_width="584dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:text="@string/follow_us_on_instagram"
+            android:textSize="50sp" />
+
+        <!-- Instagram Handle -->
+        <TextView
+            android:layout_width="407dp"
+            android:layout_height="105dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="32dp"
+            android:text="@string/instagram_handle"
+            android:textSize="50sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Logout Button -->
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="923dp"
+            android:layout_height="134dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:backgroundTint="@color/black"
+            android:text="@string/logout_button"
+            android:textSize="60sp"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">PizzApp</string>
+
+    <string name="Start">Get Started</string>
+    <string name="AG">Get Started and Enjoy a Slice of Happiness!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="mb1">Log in</string>
+    <string name="mb2">Sign up</string>
+    <string name="mb3">Contact Us</string>
+
+    <string name="label_phone_number">Phone number:</string>
+    <string name="label_email">Email:</string>
+    <string name="hotel_email">hotel@gmail.com</string>
+
+    <string name="Name">Name</string>
+    <string name="NameInput">Enter your name</string>
+
+    <string name="Email">Email</string>
+    <string name="EmailInput">Enter your email</string>
+
+    <string name="Pass">Password</string>
+    <string name="PassInput">Enter your password</string>
+    <string name="PassConfirm">Password Confirmation</string>
+    <string name="ConfirmPass">Confirm your password</string>
+
+    <string name="Phonenumber">Phone Number</string>
+    <string name="PhonenumberInput">Enter your phone number</string>
+
+
+    <string name="home">Home</string>
+    <string name="reviews">Reviews</string>
+    <string name="settings">Settings</string>
+
+    <string name="UploadData">Upload Data</string>
+    <string name="name">Enter food name</string>
+    <string name="desc">Enter food description</string>
+    <string name="cat">Enter food category</string>
+    <string name="price">Enter food price</string>
+    <string name="save">save</string>
+
+    <string name="loc">Saida Hlaliyeh main road |</string>
+    <string name="nb">+96178975999 |</string>
+
+    <string name="addreview">Add Review</string>
+    <string name="yourreview">Your review</string>
+    <string name="rating">Rating (1-5)</string>
+
+
+
+
+        <string name="settings_title">Settings</string>
+
+        <string name="thank_you_message">Thank you for your trust in us!</string>
+
+        <!-- Contact Us Section -->
+        <string name="contact_us">Contact Us</string>
+
+        <!-- Phone Number -->
+        <string name="phone_number">Phone: +96178975999</string>
+
+        <!-- Email Address -->
+        <string name="email_address">Email: yamani@gmail.com</string>
+
+        <!-- Work Contact Section -->
+        <string name="work_inquiries">For Work Inquiries:</string>
+
+        <!-- Work Contact Number -->
+        <string name="work_contact_number">Phone: +96112345678</string>
+
+        <!-- Instagram Section -->
+        <string name="follow_us_on_instagram">Follow Us on Instagram:</string>
+
+        <!-- Instagram Handle -->
+        <string name="instagram_handle">yamanispizza</string>
+
+        <!-- Logout Button -->
+        <string name="logout_button">Logout</string>
+
+    <string name="hint_confirm_password">Confirm your password</string>
+
+    <!-- Button -->
+    <string name="button_sign_up">Sign Up</string>
+
+
+</resources>

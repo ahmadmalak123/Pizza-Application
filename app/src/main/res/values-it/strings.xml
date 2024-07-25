@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">PizzaApp</string>
+
+    <string name="Start">Iniziare</string>
+    <string name="AG">Inizia e goditi una fetta di felicità!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Ciao frammento vuoto</string>
+
+
+    <string name="mb1">Login</string>
+    <string name="mb2">Iscrizione</string>
+    <string name="mb3">Contattaci</string>
+
+    <string name="label_phone_number">Numero di telefono:</string>
+    <string name="label_email">E-mail:</string>
+    <string name="hotel_email">hotel\@gmail.com</string>
+
+    <string name="Name">Nome</string>
+    <string name="NameInput">Inserisci il tuo nome</string>
+
+    <string name="Email">E-mail</string>
+    <string name="EmailInput">Inserisci il tuo indirizzo email</string>
+
+    <string name="Pass">Parola d\'ordine</string>
+    <string name="PassInput">Inserisci la tua password</string>
+    <string name="PassConfirm">Conferma password</string>
+    <string name="ConfirmPass">Conferma la tua password</string>
+
+    <string name="Phonenumber">Numero di telefono</string>
+    <string name="PhonenumberInput">Inserisci il tuo numero di telefono</string>
+
+
+    <string name="home">Casa</string>
+    <string name="reviews">Recensioni</string>
+    <string name="settings">Impostazioni</string>
+
+    <string name="UploadData">Carica dati</string>
+    <string name="name">Inserisci il nome del cibo</string>
+    <string name="desc">Inserisci la descrizione del cibo</string>
+    <string name="cat">Inserisci la categoria alimentare</string>
+    <string name="price">Inserisci il prezzo del cibo</string>
+    <string name="save">salva</string>
+
+    <string name="loc">Strada principale Saida Hlaliyeh |</string>
+    <string name="nb">+96178975999 |</string>
+
+    <string name="addreview">Aggiungi recensione</string>
+    <string name="yourreview">Il tuo commento</string>
+    <string name="rating">Voto (1-5)</string>
+
+
+
+
+        <string name="settings_title">Impostazioni</string>
+
+        <string name="thank_you_message">Grazie per la fiducia che riponete in noi!</string>
+
+        <!-- Contact Us Section -->
+        <string name="contact_us">Contattaci</string>
+
+        <!-- Phone Number -->
+        <string name="phone_number">Telefono: +96178975999</string>
+
+        <!-- Email Address -->
+        <string name="email_address">E-mail: yamani\@gmail.com</string>
+
+        <!-- Work Contact Section -->
+        <string name="work_inquiries">Per richieste di lavoro:</string>
+
+        <!-- Work Contact Number -->
+        <string name="work_contact_number">Telefono: +96112345678</string>
+
+        <!-- Instagram Section -->
+        <string name="follow_us_on_instagram">Seguici su Instagram:</string>
+
+        <!-- Instagram Handle -->
+        <string name="instagram_handle">yamanispizza</string>
+
+        <!-- Logout Button -->
+        <string name="logout_button">Disconnettersi</string>
+
+    <string name="hint_confirm_password">Conferma la tua password</string>
+
+    <!-- Button -->
+    <string name="button_sign_up">Iscrizione</string>
+
+
+</resources>

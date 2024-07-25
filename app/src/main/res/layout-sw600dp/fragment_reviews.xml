@@ -1,0 +1,71 @@
+<!-- res/layout/fragment_reviews.xml -->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Add Review Section -->
+        <TextView
+            android:layout_width="444dp"
+            android:layout_height="116dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/addreview"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <!-- Review Input -->
+        <EditText
+            android:id="@+id/editTextReview"
+            android:layout_width="960dp"
+            android:layout_height="129dp"
+            android:textSize="50sp"
+            android:hint="@string/yourreview" />
+
+        <!-- Rating Input -->
+        <EditText
+            android:id="@+id/editTextRating"
+            android:layout_width="948dp"
+            android:layout_height="137dp"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/rating"
+            android:textSize="50sp"
+            android:inputType="numberDecimal" />
+
+        <!-- Add Review Button -->
+        <Button
+            android:id="@+id/buttonAddReview"
+            android:layout_width="344dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/black"
+            android:text="@string/addreview"
+            android:textSize="50sp" />
+
+        <!-- Reviews Section -->
+        <TextView
+            android:layout_width="282dp"
+            android:layout_height="101dp"
+            android:layout_marginBottom="8dp"
+            android:text="Reviews"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <!-- RecyclerView for Reviews -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewReviews"
+            android:layout_width="943dp"
+            android:layout_height="417dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:paddingTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

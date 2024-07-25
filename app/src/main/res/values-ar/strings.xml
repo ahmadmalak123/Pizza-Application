@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">PizzaApp</string>
+
+    <string name="Start">البدء</string>
+    <string name="AG">ابدأ واستمتع بشريحة من السعادة!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">مرحبا جزء فارغ</string>
+
+
+    <string name="mb1">تسجيل الدخول</string>
+    <string name="mb2">اشتراك</string>
+    <string name="mb3">اتصل بنا</string>
+
+    <string name="label_phone_number">رقم التليفون:</string>
+    <string name="label_email">بريد إلكتروني:</string>
+    <string name="hotel_email">فندق\@gmail.com</string>
+
+    <string name="Name">اسم</string>
+    <string name="NameInput">أدخل أسمك</string>
+
+    <string name="Email">بريد إلكتروني</string>
+    <string name="EmailInput">أدخل بريدك الإلكتروني</string>
+
+    <string name="Pass">كلمة المرور</string>
+    <string name="PassInput">ادخل رقمك السري</string>
+    <string name="PassConfirm">تأكيد كلمة المرور</string>
+    <string name="ConfirmPass">أكد رقمك السري</string>
+
+    <string name="Phonenumber">رقم التليفون</string>
+    <string name="PhonenumberInput">أدخل رقم هاتفك</string>
+
+
+    <string name="home">بيت</string>
+    <string name="reviews">التعليقات</string>
+    <string name="settings">إعدادات</string>
+
+    <string name="UploadData">تحميل البيانات</string>
+    <string name="name">أدخل اسم الطعام</string>
+    <string name="desc">أدخل وصف الغذاء</string>
+    <string name="cat">أدخل فئة الغذاء</string>
+    <string name="price">أدخل سعر المواد الغذائية</string>
+    <string name="save">يحفظ</string>
+
+    <string name="loc">Saida Hlaliyeh main road |</string>
+    <string name="nb">+96178975999 |</string>
+
+    <string name="addreview">إضافة مراجعة</string>
+    <string name="yourreview">مراجعتك</string>
+    <string name="rating">التقييم (1-5)</string>
+
+
+
+
+        <string name="settings_title">إعدادات</string>
+
+        <string name="thank_you_message">شكرا لثقتكم بنا!</string>
+
+        <!-- Contact Us Section -->
+        <string name="contact_us">اتصل بنا</string>
+
+        <!-- Phone Number -->
+        <string name="phone_number">الهاتف: +96178975999</string>
+
+        <!-- Email Address -->
+        <string name="email_address">البريد الإلكتروني: yamani\@gmail.com</string>
+
+        <!-- Work Contact Section -->
+        <string name="work_inquiries">للاستفسارات عن العمل:</string>
+
+        <!-- Work Contact Number -->
+        <string name="work_contact_number">الهاتف: +96112345678</string>
+
+        <!-- Instagram Section -->
+        <string name="follow_us_on_instagram">متابعتنا على الانستقرام:</string>
+
+        <!-- Instagram Handle -->
+        <string name="instagram_handle">yamanispizza</string>
+
+        <!-- Logout Button -->
+        <string name="logout_button">تسجيل خروج</string>
+
+    <string name="hint_confirm_password">أكد رقمك السري</string>
+
+    <!-- Button -->
+    <string name="button_sign_up">اشتراك</string>
+
+
+</resources>

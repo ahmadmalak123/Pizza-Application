@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/main_activity.xml -->
+<!-- res/layout/main_activity.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <!-- Photo -->
+
+    <!-- "Get Started" button -->
+    <ImageView
+        android:id="@+id/photoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="1193dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wp" />
+
+    <Button
+        android:id="@+id/getStartedButton"
+        android:layout_width="372dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/photoImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/white"
+        android:text="@string/Start"
+        android:textColor="@android:color/black"
+        android:textSize="48sp" />
+
+
+    <!-- Text below the button -->
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="673dp"
+        android:layout_height="196dp"
+        android:layout_below="@id/getStartedButton"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/AG"
+        android:textColor="@android:color/white"
+        android:textSize="60sp" />
+
+
+</RelativeLayout>

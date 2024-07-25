@@ -1,0 +1,59 @@
+<!-- res/layout/item_review.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Border Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Horizontal layout for Email and TimeStamp -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewUserEmail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:text="Email"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewTimestamp"
+            android:text="Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginBottom="8dp"/>
+    </LinearLayout>
+
+    <!-- Reviewtext -->
+    <TextView
+        android:id="@+id/textViewReviewText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Review"
+        android:textSize="50sp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Rating -->
+    <TextView
+        android:id="@+id/textViewRating"
+        android:layout_width="match_parent"
+        android:text="Rating"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"/>
+
+</LinearLayout>

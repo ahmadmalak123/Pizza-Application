@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Application Logo -->
+            <ImageView
+                android:id="@+id/appLogo"
+                android:layout_width="match_parent"
+                android:layout_height="201dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/logo2" />
+
+            <!-- Horizontal Linear Layout for Instagram and Phone -->
+            <LinearLayout
+                android:id="@+id/contactLayout"
+                android:layout_width="match_parent"
+                android:layout_height="82dp"
+                android:layout_below="@id/appLogo"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <!-- Phone Logo and Text -->
+                <ImageView
+                    android:id="@+id/location"
+                    android:layout_width="38dp"
+                    android:layout_height="39dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/location2" />
+
+                <TextView
+                    android:id="@+id/locationtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/loc"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/phoneLogo"
+                    android:layout_width="38dp"
+                    android:layout_height="39dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/phone" />
+
+                <TextView
+                    android:id="@+id/phoneNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nb"
+                    android:textSize="12sp" />
+
+                <!-- Instagram Logo -->
+                <ImageView
+                    android:id="@+id/instagramLogo"
+                    android:layout_width="38dp"
+                    android:layout_height="39dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/instalogo" />
+            </LinearLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/contactLayout"
+                android:layout_marginTop="16dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</FrameLayout>
