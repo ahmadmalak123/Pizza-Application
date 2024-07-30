@@ -15,7 +15,7 @@ This mobile application is designed for a pizza store, providing features for bo
 To get started, clone the repository and set up the project:
 
 ```bash
-git clone https://github.com/yourusername/pizza-store-app.git
+git clone https://github.com/ahmadmalak123/pizza-store-app.git
 cd pizza-store-app
 ```
 
